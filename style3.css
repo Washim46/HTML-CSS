@@ -1,0 +1,59 @@
+body
+{
+	background-image: url(dynamic-fluid-gradient-background-liquid-shape-composition_53295-284.jpg);
+	background-color: tomato;
+    background-size: cover;
+}
+
+h1,h2,p,
+{
+	color: tomato;
+	text-align: center;
+	border: 5px solid rgba(255,255,176,9);
+	border-style: dashed;
+	cursor: pointer;
+	
+}
+p6,p7
+{
+
+	font-family: times new roman;
+}
+header
+{
+	color: white;	
+	text-align: center;
+}
+h4,h5
+{
+	font-family: times new roman;
+	font-size: 20px;
+}
+div
+{
+	background-color: grey;
+}
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: orange;
+  padding: 10px;
+}
